@@ -10,9 +10,13 @@
 
 	<title>Work Mate</title>
 	
+
+
 	<link rel="stylesheet" type="text/css" href="assets/css/grid.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
 
+	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/js/script.js"></script>
 
 </head>
