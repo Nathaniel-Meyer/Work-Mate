@@ -1,25 +1,50 @@
-<?php include "head.php"; ?>
+<?php include "includes/head.php"; ?>
 
 
-<aside>
 
-	<img src="assets/images/logo.png">
+<main class="login">
+	<div class="container-fluid">
+		<div class="row">
 
-	<form>
-		<input type="email" name="email" placeholder="Email">
-		<input type="password" name="password" placeholder="Password">
-	</form>
+			<aside class="col-5">
 
-	<a href="#">Forgot Password?</a>
+				<img class="logo" src="assets/img/logo.svg">
 
-	<a href="#">Create Account?</a>
+				<form action="dashboard">
+					<div>
+						<label>Email</label>
+						<input type="email" name="email">
+					</div>
+					
+					<div>
+						<label>Password</label>
+						<input type="password" name="password">
+					</div>
 
-</aside>
+					<div>
+						<input class="bg-primaryDark" type="submit" value="Login">
+					</div>
+					
+				</form>
 
-<main>
-	
+				<div>
+					<a class="fg-pw grey" href="#">Forgot Password?</a>
+				</div>
+				<div>
+					<a class="cr-at primary" href="#">Create Account?</a>
+				</div>
+			</aside>
 
-<section class="bg-image" style="background: url(assets/images/bg/login.png);"></section>
+
+
+			<section class="col-7 bg-image-cover" style="background: url(assets/img/bg/login.jpg) no-repeat center center;">
+
+			</section>
+
+
+		</div>
+	</div>
+</main>
 
 
 <?php include "includes/footer.php"; ?>

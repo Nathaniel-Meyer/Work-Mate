@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="164px" height="29px" viewBox="0 0 164 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>Workmate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#2D7BEC" offset="0%"></stop>
+            <stop stop-color="#2D7BEC" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Somatic-Rounded, Somatic" font-size="36" font-weight="normal" letter-spacing="0.00719999988">
+        <g id="Login" transform="translate(-199.000000, -223.000000)" fill="url(#linearGradient-1)">
+            <text id="Workmate">
+                <tspan x="197.5452" y="251">Workmate</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

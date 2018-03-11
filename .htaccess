@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /WorkMate/v1/Work-Mate/
+RewriteCond %{REQUEST_FILENAME} !-d [NC]
+RewriteCond %{REQUEST_FILENAME} !-f [NC]
+RewriteRule ^(.*)$ $1.php?id=$1 [QSA,L]
+

@@ -1,4 +1,144 @@
 
+/* ==================================================== */
+/* =================== Varables ======================= */
+/* ==================================================== */
+
+:root{
+	--primary: #5D8FFC;
+	--primaryDark: #2D7BEC;
+	--dark: #37444E;
+	--grey: #D3D3D3;
+}
+
+
+
+/* ==================================================== */
+/* ==================== Fonts ======================= */
+/* ==================================================== */
+
+body{
+	font-size: 14px;
+}
+
+h1{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h2{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h3{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h4{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h5{
+	font-family: 'Roboto', sans-serif;;
+}
+
+h6{
+	font-family: 'Roboto', sans-serif;;
+}
+
+p{
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;;
+}
+
+a{
+	font-size: 14px;
+	padding-bottom: 2px;
+	border-bottom: solid thin transparent;
+}
+a:hover{
+	color: var(--primary);
+	text-decoration: none;
+	border-bottom: solid thin var(--primary);
+}
+
+
+/* ==================================================== */
+/* ==================== Globals ======================= */
+/* ==================================================== */
+
+img{
+	width: 100%;
+	max-width: 100%;
+}
+
+/* ==================================================== */
+/* ==================== Forms ========================= */
+/* ==================================================== */
+
+
+#__lpform_password,
+#__lpform_email_icon{
+	display: none;
+}
+
+
+form{
+
+}
+
+form label{
+	font-family: 'Roboto', sans-serif;
+}
+
+form input{
+	color: var(--dark);
+	font-family: 'Roboto', sans-serif;;
+	font-size: 15px;
+	line-height: 25px;
+	padding: 10px 15px;
+	border: solid 2px #EEEEEE;
+	outline: none;
+	background-image: none !important;
+	border-radius: 5px;
+}
+
+form input[type="submit"]{
+	cursor: pointer;
+	border: none;
+	text-transform: uppercase;
+	box-shadow: 0 2px 4px rgba(000,000,000,0.5);
+}
+
+
+
+
+/* ==================================================== */
+/* ==================== Helpers ======================= */
+/* ==================================================== */
+
+.bg-image-cover{
+	background-size: cover !important;
+}
+
+.bg-primaryDark{
+	border: solid 2px transparent;
+	background-color: var(--primaryDark);
+	color: #fff;
+}
+.bg-primaryDark:hover{
+	background-color: var(--primary);
+}
+
+.white{
+	color: #fff;
+}
+.grey{
+	color: var(--grey);
+}
+.primary{
+	color: var(--primary);
+}
+
+
 
 /* ==================================================== */
 /* ==================== Right Menu ==================== */
@@ -16,7 +156,7 @@ aside{
 /* ==================== Main Content ================== */
 /* ==================================================== */
 main{
-	background-color: #eee;
+	background-color: #DEE3EB;
 }
 
 
@@ -52,3 +192,62 @@ ul.tabs li.current{
 .tab-content.current{
 	display: inherit;
 }
+
+
+
+
+
+
+/* ==================================================== */
+/* ======================= Login ====================== */
+/* ==================================================== */
+
+.login{
+	height: 100vh;
+}
+
+.login aside{
+	padding: 5vh 35px;
+}
+.login .logo{
+	display: block;
+	width: 200px;
+	margin: 20px auto;
+}
+
+.login .bg-image-cover{
+	height: 100%;
+	position: absolute;
+	right: 0;
+}
+
+.login form{
+	margin-top: 100px;
+}
+
+.login label{
+	font-size: 15px;
+	margin: 25px 0 5px 0;
+	color: var(--dark);
+}
+.login input{
+	display: block;
+	width: 100%;
+}
+
+form input[type="submit"]{
+	margin: 30px 0;
+}
+
+.login .fg-pw{
+	display: inline-block;
+	margin-bottom: 100px;
+}
+
+.login .cr-at{
+	
+}
+
+
+
+
